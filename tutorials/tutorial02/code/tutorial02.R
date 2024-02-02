@@ -24,7 +24,11 @@ lapply(c("tidyverse",
 gu_api_key() # run this interactive function
 
 # We want to query the API on articles featuring Ukraine since Jan 1 2024
+<<<<<<< Updated upstream
 dat <- gu_content(query = "", from_date = "") # making a tibble
+=======
+dat <- gu_content(query = "Ukraine", from_date = "2024-01-01") # making a tibble
+>>>>>>> Stashed changes
 
 # We'll save this data
 saveRDS(dat, "data/df2024")

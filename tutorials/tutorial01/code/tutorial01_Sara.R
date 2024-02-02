@@ -154,3 +154,6 @@ dat2 %>%
 # Then we would just have to get rid of the "+" 
 # We could do a regex for this :) 
 
+# https://exadel.com/news/how-to-choose-selectors-for-automation-to-make-your-life-a-whole-lot-easier/
+# https://www.w3schools.com/xml/xpath_syntax.asp
+
