@@ -23,11 +23,11 @@ lapply(c("tidyverse",
 ### A. Using the Guardian API with R
 gu_api_key() # run this interactive function
 
-# We want to query the API on articles featuring Ukraine since Jan 1 2023
+# We want to query the API on articles featuring Ukraine since Jan 1 2024
 dat <- gu_content(query = "", from_date = "") # making a tibble
 
 # We'll save this data
-saveRDS(dat, "data/df2023")
+saveRDS(dat, "data/df2024")
 # And make a duplicate to work on
 df <- dat  
 
@@ -161,9 +161,11 @@ dfm_ukr %>%
   textplot_wordcloud(min_size = 1, max_size = 10, max_words = 100)
 
 ### Activity
-# In this week's \data repository, you'll find a file called df2022. This is 
-# an extract of articles from January 2022, shortly before the war began. 
+# In this week's \data repository, you'll find a file called df2022 and another
+# called df2023. These are an extract of articles from January 2022, shortly 
+# before the war began, and January 2023, when the war was around one year old. 
 # See if you can repeat pre-processing on this data, and compare the features
 # and wordcloud that results.
 
 df2022 <- readRDS("data/df2022")
+df2023 <- readRDS("data/df2023")

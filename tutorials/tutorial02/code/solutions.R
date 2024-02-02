@@ -1,4 +1,4 @@
-dat <- gu_content(query = "Ukraine", from_date = "2023-01-01")
+dat <- gu_content(query = "Ukraine", from_date = "2024-01-01")
 
 df <- df[df$type == "article" & df$section_id == "world",]
 
@@ -13,3 +13,7 @@ corpus_ukr <- stri_replace_first(corpus_ukr,
 corpus_ukr <- stri_replace_last(corpus_ukr, 
                   replacement = "",
                   regex = "\u2022.+$")
+
+toks[10]
+stem_toks[10]
+lemma_toks[10]

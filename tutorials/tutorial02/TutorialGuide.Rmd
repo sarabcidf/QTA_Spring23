@@ -23,7 +23,7 @@ By the end of today's tutorial we should be able to:
 
 ## Case study: the Ukraine war
 
-No cricket this week, sadly. Instead, we're going to analyse the Guardian's coverage since the start of the year. Has coverage changed over that period? If so, how? As ever, we'll find that before we can answer the questions we have of our data, we'll be spending most of our effort trying to get it into the right shape to do so.
+No cricket this week, sadly. Instead, we're going to analyse the Guardian's coverage of the war in Ukraine since the start of the year. Has coverage changed over that period? If so, how? As ever, we'll find that before we can answer the questions we have of our data, we'll be spending most of our effort trying to get it into the right shape to do so.
 
 ## Using a web API
 
@@ -45,6 +45,4 @@ Next week we'll revise this process and move on to looking at a few statistics r
 
 ## Problem sets
 
-A final note: before completing the homeworks for this module please read the guide to using markdown in the top level of the repository. Your homework *must* be compiled as a html; if you submit an uncompiled `.Rmd` file your work will not be graded, as it will not contain any output. 
-
-Not being able to compile your `.Rmd` into a html is not an excuse for submitting an `.Rmd`: if it won't compile for you, it won't compile for me either.
+A final note: before completing the homeworks for this module please read the guide to using markdown in the top level of the repository. 
